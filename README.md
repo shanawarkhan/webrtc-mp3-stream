@@ -2,10 +2,6 @@
 
 The code in this repository demonstrates how mp3s can be streamed between web browsers using WebAudio and WebRTC APIs.
 
-## DEMO
-
-A live demonstration is available at [servicelab.org](http://webrtc.servicelab.org).
-
 ## REQUIREMENTS
 
 To run the demo you need to have [node.js](http://nodejs.org/) installed.
@@ -19,6 +15,11 @@ Install and run this demo by:
 3. Running the server: `node server.js`
 4. Opening the demo in the browser: [http://localhost:8080/index.html](http://localhost:8080/index.html)
 
-## LICENSE
 
-This module is available under a [FreeBSD license](http://opensource.org/licenses/BSD-3-Clause), see the [LICENSE file](https://github.com/eelcocramer/webrtc-mp3-stream/blob/master/LICENSE.md) for details.
+Neo
+===
+updated package.json "socket.io" : "*"
+updated server.js   (removed os function)
+
+
+

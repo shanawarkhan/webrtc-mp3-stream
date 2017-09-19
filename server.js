@@ -36,12 +36,12 @@ var server = require('http').createServer(function (request, response) {
 var io = socketIO.listen(server, {log: false});
 
 // configuration needed for Heroku hosting
-if (os.platform() !== 'win32') {
-    io.configure(function() {
-        io.set("transports", ["xhr-polling"]);
-        io.set("polling duration", 10);
-    });
-}
+// if (os.platform() !== 'win32') {
+//     io.configure(function() {
+//         io.set("transports", ["xhr-polling"]);
+//         io.set("polling duration", 10);
+//     });
+// }
 
 var port = process.env.PORT || 8080;
 
